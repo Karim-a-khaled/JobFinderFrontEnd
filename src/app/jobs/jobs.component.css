@@ -3,21 +3,20 @@
   position: relative;
   display: flex !important;
   flex-wrap: wrap;
-
+  justify-content: center;
 }
 
 .jobs-dev{
-  width: 320px;
-  height: 100%;
+  width: 420px;
+  height: 480px;
 }
 
 .card-modify .jobs-dev .card-buttons {
-  position: absolute;
   bottom: 10px;
-  left: 0;
-  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  left: 0;
+  position: absolute;
+  width: 100%;
 }
 

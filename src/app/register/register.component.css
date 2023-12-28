@@ -1,5 +1,15 @@
-.register{
+.login{
   width: 50%;
   margin: 0 auto;
   text-align: center;
+}
+
+.container-custom{
+  display: flex;
+  justify-content: center;
+}
+
+.iframe-custom{
+  width: 440px;
+  height: 440px;
 }
