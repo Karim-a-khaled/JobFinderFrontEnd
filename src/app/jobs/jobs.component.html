@@ -1,0 +1,18 @@
+<div class="card-modify">
+  <div class="card mx-3 my-2 text-center jobs-dev" *ngFor="let job of jobs">
+    <h5 class="card-header">{{ job.title }}</h5>
+    <div class="card-body">
+      <p class="card-text">
+        <strong>Company:</strong> {{ job.company }}<br>
+        <strong>Salary:</strong> {{ job.salary }}
+      </p>
+      <p class="card-text mb-5">
+        {{ job.description }}
+      </p>
+      <div class="card-buttons d-flex">
+        <button type="button" class="btn btn-success">Upload Cv</button>
+        <button type="button" class="btn btn-primary mx-2">Apply</button>
+      </div>
+    </div>
+  </div>
+</div>

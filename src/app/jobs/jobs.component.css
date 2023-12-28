@@ -1,0 +1,23 @@
+.card-modify
+{
+  position: relative;
+  display: flex !important;
+  flex-wrap: wrap;
+
+}
+
+.jobs-dev{
+  width: 320px;
+  height: 100%;
+}
+
+.card-modify .jobs-dev .card-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
