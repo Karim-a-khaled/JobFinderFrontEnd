@@ -29,5 +29,6 @@ a:hover, .logo:hover, .logo{
 
 
 .collapse-custom{
+  display: flex;
   justify-content: space-between;
 }
