@@ -1,0 +1,39 @@
+.lotti{
+    width: 90%;
+    height: 550px;
+
+}
+
+.container-custom{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+}
+
+.btn-custom{
+    font-size: 27px;
+    padding: 5px 50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lotti-card{
+    width: 200px;
+    margin: 0 auto;
+    height: 200px;
+    padding: 0;
+}
+
+.lotti-card-custom{
+    width: 350px;
+    margin: 0 auto;
+    height: 200px;
+    padding: 0;
+}

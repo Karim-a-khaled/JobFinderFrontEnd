@@ -3,6 +3,31 @@
   justify-content: space-between;
 }
 
-a{
+a {
   color: white;
+  position: relative;
+}
+
+ul a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: lightblue;
+  transition: width 0.3s ease-in-out;
+}
+
+ul a:hover::after {
+  width: 100%;
+}
+
+a:hover, .logo:hover, .logo{
+  color: white;
+}
+
+
+.collapse-custom{
+  justify-content: space-between;
 }

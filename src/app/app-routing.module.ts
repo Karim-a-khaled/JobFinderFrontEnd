@@ -3,13 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { JobsComponent } from './jobs/jobs.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+
 
 const routes: Routes = [
-    { path: 'jobs', component: JobsComponent },
-    { path: 'login', component: LoginComponent },
-    { path: 'register', component: RegisterComponent },
-    { path: '', redirectTo: '/home', pathMatch: 'full' }, // Default route
-
+  { path: 'jobs', component: JobsComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'landingPage', component: LandingPageComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' }, // Default route
 ];
 
 @NgModule({
